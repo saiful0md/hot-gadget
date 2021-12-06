@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-contain img{
+    width: 100%;
+}
+.container{
+    margin-bottom: 100px;
+}
+.marGin{
+    margin-bottom: 0;
+}
+/* Nav */
+.navbar-nav a{
+    font-size: 18px;
+}
+/* Carousel  */
+.carousel-contain .carousel-h2{
+    font-size: 41px;
+    font-weight: 500;
+}
+.carousel-contain .carousel-p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+.carousel-Btn {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    background-color: #FFB826;
+}
+
+/* Contain Smartphone */
+.container .phn-head{
+    font-size: 30px;
+}
+.container .see-all-phn a{
+    font-size: 30px;
+    color: #FF9D00;
+    text-decoration: none;
+}
+/* Card section */
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 15px #dddddd80;
+}
+.card img {
+    padding:50px;
+}
+.card-body {
+     padding: 0rem 1rem;
+}
+.card-body .card-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-body .card-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+.card-footer {
+    background-color: #fff;
+    border: none;
+    padding-bottom: 40px;
+}
+
+/* Contain Laptop */
+.container .lap-head{
+    font-size: 30px;
+}
+.container .see-all-lap a{
+    font-size: 30px;
+    color: #FF9D00;
+    text-decoration: none;
+}
+
+/* Categories */
+.categories h2{
+    font-size: 35px;
+    text-align: center;
+}
+.categories hr {
+    width: 70px;
+    text-align: center;
+    margin: 20px auto;
+    height: 5px;
+    border-radius: 20px;
+    color: #ff5200;
+    opacity: .7;
+}
+.categories .row{
+    margin-top: 100px;
+}
+.first_col {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #dddddd80;
+    border-radius: 0px 30px 0px 30px;
+    margin: auto;
+}
+.first_col img {
+    width: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.second_col img {
+    width: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.second_col .beauty {
+    box-shadow: 5px 5px 15px #dddddd80;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px 0px 30px 0px;
+    margin: auto;
+}
+.second_col .shoes {
+    box-shadow: 5px 5px 15px #dddddd80;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 20px 0px 30px 0px;
+    margin: auto;
+}
+.categories .row h5{
+    font-size: 24px;
+}
+
+.pale-order{
+    width: 100%;
+}
+
